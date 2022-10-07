@@ -1,0 +1,193 @@
+body {
+    margin: auto 0;
+    width: 1310 px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+header {
+    display: inline-flex;
+    text-align: center;
+    width: 1357px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #007D7B;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    display: inline;
+    font-size: 40px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+h3 {
+    visibility: hidden;
+    height: 1px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-left: 431px;
+}
+
+nav > h2 {
+    visibility: hidden;
+    height: 1px;
+    font-size: 0px;
+}
+nav a {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #007D7B;
+}
+
+nav li {
+    display: inline-flex;
+    margin-left: 58px;
+    
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    background-color: #007D7B;
+    padding: 15px;
+}
+
+[href="#top"]:hover {
+    color: #007D7B;
+}
+
+main footer h2 {
+    font-size: 40px;
+}
+
+
+main {
+    background-color: white;
+    color: black;
+    margin:0 auto;
+    display: grid;
+    width: 1357px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#TK {
+    float: left;
+    width: 850px;
+    height: auto;
+}
+
+
+.about {
+    text-align: right;
+    padding: 25px;
+}
+
+form {
+    width: 575px;
+    display: inline-grid;
+}
+
+figure {
+    display: inline-grid;
+    margin: 0 auto;
+}
+
+.T1 {
+    position: relative;
+    top: -275px;
+    text-align: left;
+}
+
+.T2 {
+    position: relative;
+    top: -26px;
+    text-align: right;
+    color: white;
+}
+
+.gallery {
+    text-align: left;
+    padding: 25px;
+}
+
+.images {
+    text-align: center;
+}
+
+input {
+    padding: 7px 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    text-align: left;
+}
+
+::placeholder{
+    font-size: 16px;
+    color: #007D7B;
+    font-weight: bold;
+}
+
+#mySubmit {
+    width: 302px;
+    background-color:#007D7B;
+    color: white;
+    margin-left: 122px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+small {
+    margin-right: 31px;
+}
+
+#Iran {
+    position: relative;
+    top: -620px;
+}
+
+#Italy {
+    text-align: left;
+}
+
+#Switzerland {
+    position: relative;
+    top: -26px;
+}
+
+.t1 {
+    color: white;
+}
+
+.mLeft {
+    margin-left: 8px;
+}
+
+.mRight {
+    margin-right: 8px;
+}
